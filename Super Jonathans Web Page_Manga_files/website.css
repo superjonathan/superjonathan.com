@@ -1,0 +1,37 @@
+*.primary {background-color: rgb(204, 0, 1)}
+*.secondary {background-color: rgb(196, 196, 196)}
+*.tertiary {background-color: rgb(68, 68, 68)}
+*.background {background-color: rgb(255, 255, 255)}
+h1#website-title {font-family: arial, verdana, sans-serif; font-size: 24px; font-weight: bold; color: rgb(255, 255, 255); font-style: normal; text-decoration: none}
+h2#website-slogan {font-family: georgia, "times new roman", serif; font-size: 16px; font-weight: bold; color: rgb(53, 53, 53); font-style: normal; text-decoration: none}
+*#content {font-family: "trebuchet ms", tahoma, sans-serif; font-size: 12px; font-weight: normal; color: rgb(85, 85, 85); font-style: normal; text-decoration: none}
+*#content a:link {font-weight: normal; color: rgb(88, 121, 147); font-style: normal; text-decoration: underline}
+*#content a:active {font-weight: normal; color: rgb(88, 121, 147); font-style: normal; text-decoration: underline}
+*#content a:visited {font-weight: normal; color: rgb(88, 121, 147); font-style: normal; text-decoration: underline}
+*#content a:hover {font-weight: normal; color: rgb(79, 109, 132); font-style: normal; text-decoration: underline}
+*#navcontainer div a h3 {font-family: verdana, arial, sans-serif; font-size: 11px; font-weight: bold; color: rgb(187, 187, 187); font-style: normal; text-decoration: none}
+*#navcontainer div a:hover h3 {font-weight: bold; color: rgb(255, 255, 255); font-style: normal; text-decoration: none}
+*#navcontainer div a:hover {font-weight: bold; color: rgb(255, 255, 255); font-style: normal; text-decoration: none}
+*.accent {background: transparent url(/web/20110128115725im_/http://superjonathan.com/images/41646134v1_225x225_Front.jpg) no-repeat top left}
+
+/*
+     FILE ARCHIVED ON 11:57:25 Jan 28, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:06:24 Jul 30, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 175.167 (3)
+  esindex: 0.008
+  captures_list: 215.104
+  CDXLines.iter: 10.26 (3)
+  PetaboxLoader3.datanode: 187.253 (4)
+  exclusion.robots: 3.329
+  exclusion.robots.policy: 3.318
+  RedisCDXSource: 24.099
+  PetaboxLoader3.resolve: 36.611
+  load_resource: 70.463
+*/

@@ -1,0 +1,45 @@
+<html>
+<style>
+body
+{
+  background-color:#000000;
+}
+#mydiv
+{
+  position:absolute; overflow:hidden; visibility: hidden;
+  z-index:999; width:60px; height:60px;
+  background-color:#RGBA;
+}
+</style>
+<script type="text/javascript">
+var divName = 'mydiv';
+var offX = 15;
+var offY = 15;
+function mouseX(evt) {if (!evt) evt = window.event; if (evt.pageX) return evt.pageX; else if (evt.clientX)return evt.clientX + (document.documentElement.scrollLeft ?  document.documentElement.scrollLeft : document.body.scrollLeft); else return 0;}
+function mouseY(evt) {if (!evt) evt = window.event; if (evt.pageY) return evt.pageY; else if (evt.clientY)return evt.clientY + (document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop); else return 0;}
+function follow(evt) {if (document.getElementById) {var obj = document.getElementById(divName).style; obj.visibility = 'visible';
+obj.left = (parseInt(mouseX(evt))+offX) + 'px';
+obj.top = (parseInt(mouseY(evt))+offY) + 'px';}}
+document.onmousemove = follow;
+</script>
+<h1><img src="logo.png"></h1>
+<h2><a href="pokemonbank.htm"><img src="bank.png"></a><a href="pokemonarcade.htm"><img src="arcade.png"></a><a href="Super Jonathans Web Page.html"><img src="2002SITE.png"></a><a href="2013SITE.html"><img src="blog.png"></a><a href="index.htm"><img src="2019SITE.png"></a></h2>
+<body>
+<div id="mydiv"><img src="https://web.archive.org/web/20070327233456/http://www.pokemonelite2000.com/gbcs005.gif"></div>
+<font face="courier" color="green">Click on the date for the corresponding blog post:</font>
+<br><br><b><font size="72" face="courier" color="green">2014:</b></font>
+<br><br><font face="courier" color="green"><a href="./blogpost11.htm">Tuesday, July 8th, 2014</a></font>
+<br><br><font face="courier" color="green"><a href="./blogpost10.htm">Thursday, April 24th, 2014</a></font>
+<br><br><font face="courier" color="green"><a href="./blogpost9.htm">Tuesday, April 1st, 2014</a></font>
+<br><br><font face="courier" color="green"><a href="./blogpost8.htm">Thursday, February 20th, 2014</a></font>
+<br><br><font face="courier" color="green"><a href="./blogpost7.htm">Wednesday, January 22nd, 2014</a></font>
+<br><br><b><font size="72" face="courier" color="green">2013:</b></font>
+<br><br><font face="courier" color="green"><a href="./blogpost6.htm">Monday, November 18th, 2013</a></font>
+<br><br><font face="courier" color="green"><a href="./blogpost5.htm">Sunday, November 17th, 2013</a></font>
+<br><br><font face="courier" color="green"><a href="./blogpost4.htm">Wednesday, October 16th, 2013</a></font>
+<br><br><font face="courier" color="green"><a href="./blogpost3.htm">Friday, October 11th, 2013</a></font>
+<br><br><font face="courier" color="green"><a href="./blogpost2.htm">Tuesday, October 8th, 2013</a></font>
+<br><br><font face="courier" color="green"><a href="./blogpost1.htm">Wednesday, October 1st, 2013</a></font>
+<br><br><br><script src="http://www.gmodules.com/ig/ifr?url=http://www.google.com/ig/modules/youtube.xml&amp;up_channel=POKEMONMASTER260&amp;synd=open&amp;w=320&amp;h=390&amp;title=&amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;output=js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Pokemon Arcade</title>
+        <style>
+        .black_overlay
+        {
+            display: none;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            z-index:1001;
+            -moz-opacity: 0.8;
+            opacity:.80;
+            filter: alpha(opacity=80);
+        }
+        .white_content
+        {
+            display: none;
+            position: absolute;
+            top: 25%;
+            left: 25%;
+            width: 50%;
+            height: 50%;
+            padding: 16px;
+            border: 16px solid green;
+            background-color: orange;
+            z-index:1002;
+            overflow: auto;
+        }
+        body
+	{
+	  background-color:#000000;
+	}
+	
+	#mydiv
+	{
+	  position:absolute; overflow:hidden; visibility: hidden;
+	  z-index:999; width:60px; height:60px;
+	  background-color:#RGBA;
+	}
+        </style>
+        <script type="text/javascript">
+	var divName = 'mydiv';
+	var offX = 15;
+	var offY = 15;
+	function mouseX(evt) {if (!evt) evt = window.event; if (evt.pageX) return evt.pageX; else if (evt.clientX)return evt.clientX + (document.documentElement.scrollLeft ?  document.documentElement.scrollLeft : document.body.scrollLeft); else return 0;}
+	function mouseY(evt) {if (!evt) evt = window.event; if (evt.pageY) return evt.pageY; else if (evt.clientY)return evt.clientY + (document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop); else return 0;}
+	function follow(evt) {if (document.getElementById) {var obj = document.getElementById(divName).style; obj.visibility = 'visible';
+	obj.left = (parseInt(mouseX(evt))+offX) + 'px';
+	obj.top = (parseInt(mouseY(evt))+offY) + 'px';}}
+	document.onmousemove = follow;
+	</script>
+	<script type="text/javascript" src="http://cdn.wibiya.com/Toolbars/dir_0700/Toolbar_700696/Loader_700696.js"></script><noscript><a href="http://www.wibiya.com/">Web Toolbar by Wibiya</a></noscript>
+    </head>
+    <h1><img src="logo.png"></h1>
+    <h2><a href="pokemonbank.htm"><img src="bank.png"></a><a href="pokemonarcade.htm"><img src="arcade.png"></a><a href="Super Jonathans Web Page.html"><img src="2002SITE.png"></a><a href="2013SITE.html"><img src="blog.png"></a><a href="index.htm"><img src="2019SITE.png"></a></h2>
+    <body>
+	<div id="mydiv"><img src="https://web.archive.org/web/20070327233456/http://www.pokemonelite2000.com/gbcs005.gif"></div>
+	<font color="green" face="Courier">Click on any of the start menus below to play their respective games.<p>Game will appear at the top of the page.</font>
+        <p><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'"><img src="crystal.gif"></a>
+        <div id="light" class="white_content"><iframe src="http://www.vizzed.com/playonlinegames/play2.php?id=1399&emulator=JavaBoy%20Java%20Emulator" name="frame1" scrolling="auto" frameborder="no" align="center" height = "480px" width = "995px"></iframe> <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a></div>
+        <div id="fade" class="black_overlay"></div>
+        <p><a href = "javascript:void(0)" onclick = "document.getElementById('light2').style.display='block';document.getElementById('fade2').style.display='block'"><img src="http://cdn.makeagif.com/media/9-08-2013/ZhBnQv.gif"></a>
+        <div id="light2" class="white_content"><iframe src="http://www.vizzed.com/playonlinegames/play2.php?id=2405&emulator=JavaBoy%20Java%20Emulator" name="frame1" scrolling="auto" frameborder="no" align="center" height = "480px" width = "995px"></iframe><a href = "javascript:void(0)" onclick = "document.getElementById('light2').style.display='none';document.getElementById('fade2').style.display='none'">Close</a></div>
+        <div id="fade2" class="black_overlay"></div>
+        <p><a href = "javascript:void(0)" onclick = "document.getElementById('light3').style.display='block';document.getElementById('fade3').style.display='block'"><img src="http://cdn.makeagif.com/media/9-08-2013/udezGt.gif"></a>
+        <div id="light3" class="white_content"><iframe src="http://www.vizzed.com/playonlinegames/play2.php?id=2404&emulator=JavaBoy%20Java%20Emulator" name="frame1" scrolling="auto" frameborder="no" align="center" height = "480px" width = "995px"></iframe> <a href = "javascript:void(0)" onclick = "document.getElementById('light3').style.display='none';document.getElementById('fade3').style.display='none'">Close</a></div>
+        <div id="fade3" class="black_overlay"></div>
+        <p><a href = "javascript:void(0)" onclick = "document.getElementById('light4').style.display='block';document.getElementById('fade4').style.display='block'"><img src="http://cdn.makeagif.com/media/9-08-2013/A6fcN9.gif"></a>
+        <div id="light4" class="white_content"><iframe src="http://www.vizzed.com/playonlinegames/play2.php?id=1407&emulator=VizzedAEPgb%20Java%20Emulator" name="frame1" scrolling="auto" frameborder="no" align="center" height = "480px" width = "995px"></iframe> <a href = "javascript:void(0)" onclick = "document.getElementById('light4').style.display='none';document.getElementById('fade4').style.display='none'">Close</a></div>
+        <div id="fade4" class="black_overlay"></div>
+        <p><a href = "javascript:void(0)" onclick = "document.getElementById('light5').style.display='block';document.getElementById('fade5').style.display='block'"><img src="gold.gif"></a>
+        <div id="light5" class="white_content"><iframe src="http://www.vizzed.com/playonlinegames/play2.php?id=1402&emulator=VizzedAEPgb%20Java%20Emulator" name="frame1" scrolling="auto" frameborder="no" align="center" height = "480px" width = "995px"></iframe> <a href = "javascript:void(0)" onclick = "document.getElementById('light5').style.display='none';document.getElementById('fade5').style.display='none'">Close</a></div>
+        <div id="fade5" class="black_overlay"></div>
+        <p><a href = "javascript:void(0)" onclick = "document.getElementById('light6').style.display='block';document.getElementById('fade6').style.display='block'"><img src="silver.gif"></a>
+        <div id="light6" class="white_content"><iframe src="http://www.vizzed.com/playonlinegames/play2.php?id=1405&emulator=VizzedAEPgb%20Java%20Emulator" name="frame1" scrolling="auto" frameborder="no" align="center" height = "480px" width = "995px"></iframe> <a href = "javascript:void(0)" onclick = "document.getElementById('light6').style.display='none';document.getElementById('fade6').style.display='none'">Close</a></div>
+        <div id="fade6" class="black_overlay"></div>
+        <p><a href = "javascript:void(0)" onclick = "document.getElementById('light7').style.display='block';document.getElementById('fade7').style.display='block'"><img src="http://cdn.makeagif.com/media/9-09-2013/uVmedP.gif"></a>
+        <div id="light7" class="white_content"><iframe src="http://www.vizzed.com/playonlinegames/play.php?id=10646" name="frame1" scrolling="auto" frameborder="no" align="center" height = "480px" width = "995px"></iframe> <a href = "javascript:void(0)" onclick = "document.getElementById('light7').style.display='none';document.getElementById('fade7').style.display='none'">Close</a></div>
+        <div id="fade7" class="black_overlay"></div>
+        <p><a href = "javascript:void(0)" onclick = "document.getElementById('light8').style.display='block';document.getElementById('fade8').style.display='block'"><img src="http://cdn.makeagif.com/media/9-09-2013/BkiYHt.gif"></a>
+        <div id="light8" class="white_content"><iframe src="http://www.vizzed.com/playonlinegames/play.php?id=10647" name="frame1" scrolling="auto" frameborder="no" align="center" height = "480px" width = "995px"></iframe> <a href = "javascript:void(0)" onclick = "document.getElementById('light8').style.display='none';document.getElementById('fade8').style.display='none'">Close</a></div>
+        <div id="fade8" class="black_overlay"></div>
+        <p><a href = "javascript:void(0)" onclick = "document.getElementById('light8').style.display='block';document.getElementById('fade8').style.display='block'"><img src="http://cdn.makeagif.com/media/9-09-2013/GhzFcg.gif"></a>
+        <div id="light8" class="white_content"><iframe src="http://www.vizzed.com/playonlinegames/play.php?id=10643" name="frame1" scrolling="auto" frameborder="no" align="center" height = "480px" width = "995px"></iframe> <a href = "javascript:void(0)" onclick = "document.getElementById('light8').style.display='none';document.getElementById('fade8').style.display='none'">Close</a></div>
+        <div id="fade8" class="black_overlay"></div>
+        <p><a href = "javascript:void(0)" onclick = "document.getElementById('light8').style.display='block';document.getElementById('fade8').style.display='block'"><img src="http://cdn.makeagif.com/media/9-09-2013/tVyUPZ.gif"></a>
+        <div id="light8" class="white_content"><iframe src="http://www.vizzed.com/playonlinegames/play.php?id=10644" name="frame1" scrolling="auto" frameborder="no" align="center" height = "480px" width = "995px"></iframe> <a href = "javascript:void(0)" onclick = "document.getElementById('light8').style.display='none';document.getElementById('fade8').style.display='none'">Close</a></div>
+        <div id="fade8" class="black_overlay"></div>
+        <p><a href = "javascript:void(0)" onclick = "document.getElementById('light8').style.display='block';document.getElementById('fade8').style.display='block'"><img src="http://cdn.makeagif.com/media/9-09-2013/65RKZW.gif"></a>
+        <div id="light8" class="white_content"><iframe src="http://www.vizzed.com/playonlinegames/play.php?id=10645" name="frame1" scrolling="auto" frameborder="no" align="center" height = "480px" width = "995px"></iframe> <a href = "javascript:void(0)" onclick = "document.getElementById('light8').style.display='none';document.getElementById('fade8').style.display='none'">Close</a></div>
+        <div id="fade8" class="black_overlay"></div>
+        <p><font color="green" face="Courier">First and second generation games require Java.  Third generation games require the <a href="http://www.vizzed.com/boards/thread.php?id=8676">Vizzed RGR Plugin</a>.  Saving requires <a href="http://www.vizzed.com/boards/login.php">logging into a Vizzed account</a>.</font>
+    </body>
+</html>

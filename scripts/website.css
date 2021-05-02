@@ -1,0 +1,15 @@
+*.primary {background-color: rgb(240, 240, 230)}
+*.secondary {background-color: rgb(123, 117, 101)}
+*.tertiary {background-color: rgb(82, 59, 43)}
+*.background {background-color: rgb(34, 32, 19)}
+h1#website-title {font-family: verdana, arial, sans-serif; font-size: 48px; font-weight: bold; color: rgb(255, 255, 255); font-style: normal; text-decoration: none}
+h2#website-slogan {font-family: verdana, arial, sans-serif; font-size: 28px; font-weight: normal; color: rgb(255, 255, 255); font-style: normal; text-decoration: none}
+*#content {font-family: verdana, arial, sans-serif; font-size: 11px; font-weight: normal; color: rgb(0, 0, 0); font-style: normal; text-decoration: none}
+*#content a:link {font-family: verdana, arial, sans-serif; font-size: 11px; font-weight: normal; color: rgb(82, 59, 43); font-style: normal; text-decoration: underline}
+*#content a:active {font-family: verdana, arial, sans-serif; font-size: 11px; font-weight: normal; color: rgb(82, 59, 43); font-style: normal; text-decoration: underline}
+*#content a:visited {font-family: verdana, arial, sans-serif; font-size: 11px; font-weight: normal; color: rgb(82, 59, 43); font-style: normal; text-decoration: underline}
+*#content a:hover {font-family: verdana, arial, sans-serif; font-size: 11px; font-weight: normal; color: rgb(82, 59, 43); font-style: normal; text-decoration: underline}
+*#navcontainer div a h3 {font-family: verdana, arial, sans-serif; font-size: 10px; font-weight: bold; color: rgb(255, 255, 255); font-style: normal; text-decoration: none}
+*#navcontainer div a:hover h3 {font-family: verdana, arial, sans-serif; font-size: 10px; font-weight: bold; color: rgb(102, 51, 0); font-style: normal; text-decoration: none; background-color: rgb(255, 255, 255)}
+*#navcontainer div a:hover {font-family: verdana, arial, sans-serif; font-size: 10px; font-weight: bold; color: rgb(102, 51, 0); font-style: normal; text-decoration: none; background-color: rgb(255, 255, 255)}
+*.accent {background: transparent url(../images/website_logo.jpg) no-repeat top left}

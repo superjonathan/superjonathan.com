@@ -1,0 +1,33 @@
+<style>
+body
+{
+  background:url(bankbackground.png) no-repeat;
+  background-color:black;
+}
+#mydiv
+{
+  position:absolute; overflow:hidden; visibility: hidden;
+  z-index:999; width:60px; height:60px;
+  background-color:#rgba;
+}
+</style>
+<script type="text/javascript">
+var divName = 'mydiv';
+var offX = 15;
+var offY = 15;
+function mouseX(evt) {if (!evt) evt = window.event; if (evt.pageX) return evt.pageX; else if (evt.clientX)return evt.clientX + (document.documentElement.scrollLeft ?  document.documentElement.scrollLeft : document.body.scrollLeft); else return 0;}
+function mouseY(evt) {if (!evt) evt = window.event; if (evt.pageY) return evt.pageY; else if (evt.clientY)return evt.clientY + (document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop); else return 0;}
+function follow(evt) {if (document.getElementById) {var obj = document.getElementById(divName).style; obj.visibility = 'visible';
+obj.left = (parseInt(mouseX(evt))+offX) + 'px';
+obj.top = (parseInt(mouseY(evt))+offY) + 'px';}}
+document.onmousemove = follow;
+</script>
+<script type="text/javascript" src="http://cdn.wibiya.com/Toolbars/dir_0700/Toolbar_700696/Loader_700696.js"></script><noscript><a href="http://www.wibiya.com/">Web Toolbar by Wibiya</a></noscript>
+<body>
+<div id="mydiv"><img src="https://web.archive.org/web/20070327233456/http://www.pokemonelite2000.com/gbcs005.gif"></div>
+<a href="http://mega.co.nz/#!pVRgFIIJ!dHBZU1-LsgN4mI85bs-wJ0V7erBiAVn7Zk6WJEQ2K2c"><img src="https://web.archive.org/web/20110810072040/http://www.pokemonelite2000.com/sprites/dpiconani/dpiconani418.gif"></img></a><a href="https://mega.co.nz/#!BNIVzALS!d25KTGnSxZ9-PsiCH0YuKXfSji5B4-6AcJWQ5AnraBM"><img src="https://web.archive.org/web/20120817113307/http://www.pokemonelite2000.com/sprites/dpiconani/dpiconani177.gif"></a><a href="https://mega.co.nz/#!pEIFFDJT!cRpJpghiPNpC7qPorJGWxFjuYA07woL6Hb2EPdpLGRo"><img src="https://web.archive.org/web/20110919101702/http://www.pokemonelite2000.com/sprites/dpiconani/dpiconani100.gif"></a><a href="https://mega.co.nz/#!0BAkjL4B!c9fiGjh-jJyTdEJYaGpqFEx4lKlDE6G8qq2XiV-xGWY"><img src="https://web.archive.org/web/20110208214240/http://www.pokemonelite2000.com/sprites/dpiconani/dpiconani447.gif"></a>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><font color="green" face="courier">Powered by <a href="http://mega.co.nz">MEGA</a> Cloud Storage.</font>
+<br><b><font face="Courier" color="green"><a href="http://pokegts.us/5thGen_DistributeLink.aspx?SHA1=AF05517B85D2B0976E8AB8677C06EAF06292A121">Click here</a> to download the latest GTS Event!</b></font>  
+<br><br><a href="pokemonbank.htm"><img src="bank.png"></a><a href="pokemonarcade.htm"><img src="arcade.png"></a><a href="Super Jonathans Web Page.html"><img src="2002SITE.png"></a><a href="2013SITE.html"><img src="blog.png"></a><a href="index.htm"><img src="2019SITE.png"></a>
+<br><img src="logo.png">
+</body>

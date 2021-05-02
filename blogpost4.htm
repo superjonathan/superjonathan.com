@@ -1,0 +1,32 @@
+<style>
+body
+{
+  background-color:#000000;
+}
+#mydiv
+{
+  position:absolute; overflow:hidden; visibility: hidden;
+  z-index:999; width:60px; height:60px;
+  background-color:#RGBA;
+}
+</style>
+<script type="text/javascript">
+var divName = 'mydiv';
+var offX = 15;
+var offY = 15;
+function mouseX(evt) {if (!evt) evt = window.event; if (evt.pageX) return evt.pageX; else if (evt.clientX)return evt.clientX + (document.documentElement.scrollLeft ?  document.documentElement.scrollLeft : document.body.scrollLeft); else return 0;}
+function mouseY(evt) {if (!evt) evt = window.event; if (evt.pageY) return evt.pageY; else if (evt.clientY)return evt.clientY + (document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop); else return 0;}
+function follow(evt) {if (document.getElementById) {var obj = document.getElementById(divName).style; obj.visibility = 'visible';
+obj.left = (parseInt(mouseX(evt))+offX) + 'px';
+obj.top = (parseInt(mouseY(evt))+offY) + 'px';}}
+document.onmousemove = follow;
+</script>
+<script type="text/javascript" src="http://cdn.wibiya.com/Toolbars/dir_0700/Toolbar_700696/Loader_700696.js"></script><noscript><a href="http://www.wibiya.com/">Web Toolbar by Wibiya</a></noscript>
+<h1><img src="logo.png"></h1>
+<h2><a href="pokemonbank.htm"><img src="bank.png"></a><a href="pokemonarcade.htm"><img src="arcade.png"></a><a href="Super Jonathans Web Page.html"><img src="2002SITE.png"></a><a href="2013SITE.html"><img src="blog.png"></a><a href="index.htm"><img src="2019SITE.png"></a></h2>
+<body>
+<div id="mydiv"><img src="https://web.archive.org/web/20070327233456/http://www.pokemonelite2000.com/gbcs005.gif"></div>
+<font face="courier" color="green" size="72">Wednesday, October 16th, 2013</font>
+<br><font face="courier" color="green">Hey, people!  So, I know I said I might add another Pokemon to my Bank the day Pokemon XY came out, but, unfortunately, I didn't feel like doing it.  Sorry.  To make up for it, I am adding a Riolu to my Bank today.  Remember that Riolu must be added to your 5th gen games before you transfer it to XY, but once the Poke Transporter app releases I recommend evolving it into Lucario so you can make it Mega Evolve in XY.  Speaking of XY, how are any of the nonexistent people who read this blog enjoying the games?  Personally, I'm enjoying it a lot, & have already beat it.  I even caught Mewtwo and Zygarde after I beat the games!  Personally, though, I can't wait to transfer my Pokemon from Black 2 to Y because that will just be awesome.  I even kept my Swampert I got in Ruby version years ago!  Hope everyone is enjoying this new generation of Pokemon and you all continue using Superjonathan.com as a resource from every generation onwards.
+<br><br>Peace,
+<br>MASTER260.</font>

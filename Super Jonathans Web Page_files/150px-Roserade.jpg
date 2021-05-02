@@ -1,0 +1,11 @@
+<html><head><title>Error generating thumbnail</title></head>
+<body>
+<h1>Error generating thumbnail</h1>
+<p>
+The source file 'Roserade.jpg' does not exist.
+</p>
+<!-- http://en.wikipedia.org/w/thumb_handler.php/3/39/Roserade.jpg/150px-Roserade.jpg -->
+<!-- mw1155 -->
+
+</body>
+</html>

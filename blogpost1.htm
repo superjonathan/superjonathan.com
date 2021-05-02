@@ -1,0 +1,30 @@
+<style>
+body
+{
+  background-color:#000000;
+}
+#mydiv
+{
+  position:absolute; overflow:hidden; visibility: hidden;
+  z-index:999; width:60px; height:60px;
+  background-color:#RGBA;
+}
+</style>
+<script type="text/javascript">
+var divName = 'mydiv';
+var offX = 15;
+var offY = 15;
+function mouseX(evt) {if (!evt) evt = window.event; if (evt.pageX) return evt.pageX; else if (evt.clientX)return evt.clientX + (document.documentElement.scrollLeft ?  document.documentElement.scrollLeft : document.body.scrollLeft); else return 0;}
+function mouseY(evt) {if (!evt) evt = window.event; if (evt.pageY) return evt.pageY; else if (evt.clientY)return evt.clientY + (document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop); else return 0;}
+function follow(evt) {if (document.getElementById) {var obj = document.getElementById(divName).style; obj.visibility = 'visible';
+obj.left = (parseInt(mouseX(evt))+offX) + 'px';
+obj.top = (parseInt(mouseY(evt))+offY) + 'px';}}
+document.onmousemove = follow;
+</script>
+<script type="text/javascript" src="http://cdn.wibiya.com/Toolbars/dir_0700/Toolbar_700696/Loader_700696.js"></script><noscript><a href="http://www.wibiya.com/">Web Toolbar by Wibiya</a></noscript>
+<h1><img src="logo.png"></h1>
+<h2><a href="pokemonbank.htm"><img src="bank.png"></a><a href="pokemonarcade.htm"><img src="arcade.png"></a><a href="Super Jonathans Web Page.html"><img src="2002SITE.png"></a><a href="2013SITE.html"><img src="blog.png"></a><a href="index.htm"><img src="2019SITE.png"></a></h2>
+<body>
+<div id="mydiv"><img src="https://web.archive.org/web/20070327233456/http://www.pokemonelite2000.com/gbcs005.gif"></div>
+<font face="courier" color="green" size="72">Wednesday, October 1st, 2013</font>
+<br><font face="courier" color="green">Hello, guys, and welcome to the <b>ALL-NEW</b> SUPERJONATHAN.COM!!!!!!  I'm typing this now while the new site is still in development, & boy do I have a lot to tell all of you when this site relaunches!  We've got lots of new stuff on the revamped website, such as The Pokemon Arcade, where you can play the first 3 generations of Pokemon games RIGHT IN YOUR BROWSER, or The Pokemon Bank, which will be a place for me to store Pokemon of mine that ANYONE can download, and even an archive of the old, crappy site!  Hope you enjoy all the new features of the REBOOTED Superjonathan.com!!!!!!!!!!!  A new Pokemon will be added to the Bank every day, and the last Pokemon to be added to the Bank will be able to be downloaded via GTS, in addition to as a .pkm file.  .pkm files should be added to your game via Pokegen.  They are NOT hacked; Pokegen allows you to do more than just hack Pokemon.  You see, it also allows you to save any Pokemon you own as a .pkm file, but, whatever...</font>

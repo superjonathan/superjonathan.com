@@ -1,0 +1,346 @@
+/*
+-----------------------------------------------------------------------------------------
+CSS document: ImageCafe Template Styles
+Created: 05/26/2006
+Last Modified: 10/16/2006
+NOTE: Template styles included here cannot be changed by the customer
+-------------------------------------------------------------------------------------- */
+* {margin:0;padding:0;}  /* zero out everything */
+body {
+	text-align:center;
+}
+/*
+-----------------------------------------------------------------------------------------
+Global
+-------------------------------------------------------------------------------------- */
+div {position:relative;}
+h4, h5, h6 {
+	clear:left;
+	left:25px;
+}
+ul, ol {
+	margin:15px;
+	padding:0 0 0 25px;
+}
+ol {padding:0 0 0 30px;}
+.clearer {
+}
+#printwrap {position:static;}
+/*
+-----------------------------------------------------------------------------------------
+General Layout Structure
+-------------------------------------------------------------------------------------- */
+#nav-top, #nav-left, #nav-right {
+	width:783px;
+	margin:0 auto;
+}
+	
+#headertop {
+	float:left;
+	width:682px;
+	background:url(../images/dome_frame_top.png);
+	background-repeat:no-repeat;
+	background-position: right bottom;
+}
+#headertop #titlebox {
+	text-align: left;
+	margin-left: 15px;	
+}
+#headertop #sloganbox {
+	text-align: left;
+	margin-left: 15px;
+}
+.accent {
+	clear: left;
+	width: 682px;
+	height:182px;
+}
+.accent-none {
+	clear:left;
+	width: 682px;
+	height:182px;
+}
+*+html .accent-none, *+html .accent {
+	left: -50px;
+}	
+#sidedome {
+	float:right;
+	top:-183px;
+	width:100px;
+	height:483px;
+	left:-1px;
+	background:url(../images/domedome_frame_right.png);
+	background-repeat:no-repeat;
+	background-position: top right;
+}
+/*------------------ nav-top ------------------*/
+#nav-top #navcontainer {
+	float:left;
+	top:-216px;
+	width:682px;
+	z-index:1000;
+}
+#nav-top #content {
+	float:left;
+	width:682px;
+}
+#nav-top #content #colorblock {
+	float:right;
+	width:565px;
+	height:34px;
+	top:-20px;	
+}
+#nav-top #content #colorblock div {
+	float:right;
+	width:36px;
+	height:34px;
+	margin-left:15px;
+}
+#nav-top #content #footer {
+	clear:both;
+	width:672px;
+	padding:5px;
+}
+/*------------------ nav-left ------------------*/
+#nav-left #content {
+	width:682px;
+	float:left;
+	clear:left;
+}
+#nav-left #navcontainer {
+	float:left;
+	clear:left;
+	width:110px;
+	top:-182px;
+	z-index:1000;
+}
+#nav-left #colorblock {
+	float:right;
+	width:572px;
+	height:34px;
+	top:-20px;	
+}
+#nav-left #colorblock div {
+	float:right;
+	width:36px;
+	height:34px;
+	margin-left:15px;
+}
+#nav-left #content #footer {
+	clear:both;
+	padding:5px;
+}
+/*------------------ nav-right ------------------*/
+#nav-right #content {
+	width:682px;
+	clear:left;
+	float:left;
+}
+#nav-right #navcontainer {
+	float:right;
+	clear:right;
+	width:117px;
+	top:-182px;
+	z-index:1000;
+}
+#nav-right #colorblock {
+	float:left;
+	width:550px;
+	height:34px;
+	top:-20px;	
+}
+#nav-right #colorblock div {
+	float:left;
+	width:36px;
+	height:34px;
+	margin-right:15px;
+}
+#nav-right #content #footer {
+	clear:both;
+	width:672px;
+	padding:5px;
+}
+/*
+-----------------------------------------------------------------------------------------
+Navigation Elements
+-------------------------------------------------------------------------------------- */
+/*------------------ nav-top ------------------*/	
+#nav-top #navcontainer div, #nav-top #navcontainer div h3 {
+	float:left;
+	display:block;
+	cursor:pointer;
+}
+	#nav-top #navcontainer div a:link, #nav-top #navcontainer div a:active, #nav-top #navcontainer div a:visited {
+		float:left;
+		border-right:1px solid #fff;
+		padding:9px 9px 9px 8px;
+		text-decoration:none;
+		white-space: nowrap;
+	}
+	#nav-top #navcontainer div a:hover {border-left:0;}
+		#nav-top #navcontainer div div.submenu, #nav-top #navcontainer div div.submenu h3 {
+			float:left;
+			display:block;
+		}
+		#nav-top #navcontainer div div.submenu {
+			position:absolute;
+			left:0px;
+			top:0px;
+			width:110px;
+			visibility:hidden;
+		}
+			#nav-top #navcontainer div div.submenu div {display:block; top:-1px;}
+			#nav-top #navcontainer div div.submenu a:link, #nav-top #navcontainer div div.submenu a:active, #nav-top #navcontainer div div.submenu a:visited {
+				float:left;
+				border-top:1px solid #fff;
+				border-right:0px;
+				padding:9px 9px 9px 9px;
+				text-decoration:none;
+				text-align:left;
+				width:103px;
+				word-wrap: break-word;
+				white-space: normal;
+			}
+			#nav-top #navcontainer div div.submenu a:hover {text-decoration:none;}
+/*------------------ nav-left ------------------*/	
+#nav-left #navcontainer div, #nav-left #navcontainer div h3 {
+	float:left;
+	display:block;
+	cursor:pointer;
+}
+	#nav-left #navcontainer div a:link, #nav-left #navcontainer div a:active, #nav-left #navcontainer div a:visited {
+		float:left;
+		/*---ie broswer width---*/
+		width:110px;
+		padding:9px 9px 9px 9px;
+		text-decoration:none;
+		border-bottom:1px solid #fff;
+		/*---Proper width for all other browsers---*/
+			voice-family: "\"}\"";
+			voice-family:inherit;
+			width:103px;
+			word-wrap: break-word;
+	}
+	#nav-left #navcontainer div a:hover {border-left:0;}
+		#nav-left #navcontainer div div.submenu, #nav-left #navcontainer div div.submenu h3 {
+			float:left;
+			display:block;
+		}
+		#nav-left #navcontainer div div.submenu {
+			position:absolute;
+			left:100px;
+			top:0px;
+			width:110px;
+			visibility:hidden;
+		}
+			#nav-left #navcontainer div div.submenu div {display:block;}
+			#nav-left #navcontainer div div.submenu a:link, #nav-left #navcontainer div div.submenu a:active, #nav-left #navcontainer div div.submenu a:visited {
+				float:left;
+				width:110px;
+				border-left:1px solid #fff;
+				padding:9px 9px 9px 6px;
+				text-decoration:none;
+				word-wrap: break-word;
+			}
+			#nav-left #navcontainer div div.submenu a:hover {text-decoration:none;}
+/*------------------ nav-right ------------------*/	
+#nav-right #navcontainer div, #nav-right #navcontainer div h3 {
+	float:left;
+	display:block;
+	cursor:pointer;
+}
+	#nav-right #navcontainer div a:link, #nav-right #navcontainer div a:active, #nav-right #navcontainer div a:visited {
+		float:left;
+		/*---ie broswer width---*/
+		width:117px;
+			padding:9px 5px 9px 9px;
+			text-decoration:none;
+			border-bottom:1px solid #fff;
+		/*---Proper width for all other browsers---*/
+			voice-family: "\"}\"";
+			voice-family:inherit;
+			width:103px;
+			word-wrap: break-word;
+	}
+	#nav-right #navcontainer div a:hover {border-left:0;}
+		#nav-right #navcontainer div div.submenu, #nav-right #navcontainer div div.submenu h3 {
+			float:right;
+			display:block;
+		}
+		#nav-right #navcontainer div div.submenu {
+			position:absolute;
+			top:0px;
+			width:117px;
+			visibility:hidden;
+		}
+			#nav-right #navcontainer div div.submenu div {display:block;}
+			#nav-right #navcontainer div div.submenu a:link, #nav-right #navcontainer div div.submenu a:active, #nav-right #navcontainer div div.submenu a:visited {
+				float: right;
+				border-right:1px solid #fff;
+				padding:9px 9px 9px 6px;
+				/*---Proper width for all other browsers---*/
+			voice-family: "\"}\"";
+			voice-family:inherit;
+			width:89px;
+			text-decoration:none;
+			word-wrap: break-word;
+			}
+			#nav-right #navcontainer div div.submenu a:hover {text-decoration:none;}
+
+/*
+-----------------------------------------------------------------------------------------
+Table Structures
+-------------------------------------------------------------------------------------- */
+
+/*------------------ nav-top ------------------*/	
+#nav-top #content-table {
+	padding:20px;
+	width:650px;
+	border:0;
+}
+	#nav-top #content-table {width:650px;}
+		#nav-top #content-table-main p {margin:25px 20px 15px 15px;}
+/*------------------ nav-left ------------------*/	
+#nav-left #content-table {
+	clear:right;
+	padding:20px;
+	width:550px;
+	border:0;
+}
+	#nav-left #content-table {width:550px;}
+		#nav-left #content-table-main p {margin:25px 0px 15px 15px;}
+/*------------------ nav-right ------------------*/	
+#nav-right #content-table {
+	clear:left;
+	padding:20px;
+	width:550px;
+	border:0;
+}
+	#nav-right #content-table {width:550px;}
+		#nav-right #content-table-main p {margin:25px 20px 15px 15px;}
+
+/*-----styles----*/
+/*------------------ content styling ------------------*/	
+#content-table h1, #content-table h2, #content-table h3, 
+#content-table h4, #content-table h5, #content-table h6 {
+	margin: 5px 15px;
+}
+#content-table h1 {
+	font-size:22px;
+	margin: 6px 15px 15px 15px;
+}	
+#content-table h2 {
+	font-size:20px;
+}
+#content-table h3 {
+	font-size:18px;
+}
+#content-table h4 {
+	font-size:16px;
+}
+#content-table h5 {
+	font-size:14px;
+}
+#content-table h6 {
+	font-size:12px;
+}

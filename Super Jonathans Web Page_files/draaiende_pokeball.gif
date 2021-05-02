@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+    <head>
+		<title>UPC, Televisie, Internet en Bellen</title>
+
+		<link rel="stylesheet" type="text/css" href="http://www.upc.nl/style/pc/upccore/webfonts/interstate.css">
+		
+        <style type="text/css">
+		body { font-family: "interstate_regular", Arial, Helvetica, sans-serif; }
+		a { text-decoration: none; }
+		img { border: none; }
+		
+		#maincontainer {
+			display: block;
+			width: 990px;
+			margin: 0px auto 0 auto;
+			text-align: left;
+			clear: both;
+		}
+		
+		.topnavContainer {
+			position: relative;
+			display: block;
+			clear: both;
+			width: 990px;
+			height: 129px;
+			line-height: normal;
+			margin-bottom: 10px;
+		}
+		
+		.topnavContainer .logo {
+			position: relative;
+			float: left;
+			margin: 20px 0 0 10px !important;
+			padding: 0;
+			width: 70px;
+			height: 65px;
+		}
+		
+		.portal_search_top {
+			position: relative;
+			width: 422px;
+			left: 220px;
+			top: 41px;
+			margin: 0;
+			height: 36px;
+			padding: 10px;
+			background: url('http://www.upc.nl/media/pc/upccore/global/core/boxes/bg_searchboxv2.png') no-repeat left top;
+			line-height: normal !important;
+		}
+		
+		.portal_search_top input.search-box {
+			position: absolute;
+			width: 248px;
+			top: 6px;
+			padding: 3px;
+			left: 7px;
+			border: 1px solid #D4D4D4;
+		}
+		
+		.portal_search_top .search-logo {
+			position: absolute;
+			top: 5px;
+			margin: 0 0 0 362px;
+			left: 5px;
+		}
+		
+		.portal_search_top .button {
+			position: absolute;
+			top: 6px;
+			left: 267px;
+			color: white;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 12px!important;
+			font-weight: bold;
+			text-transform: uppercase;
+			text-align: left;
+			background: url('http://www.upc.nl/media/pc/upccore/global/core/buttons/search_button_sprite.png') no-repeat left -50px;
+			padding: 0 0 0 14px;
+			height: 24px;
+			width: 92px;
+		}
+		
+		.button {
+			margin: 0 0 5px 0;
+			font-size: 0.9em;
+			text-transform: uppercase;
+			text-align: center;
+			width: 93px;
+		}
+		
+		button {
+			position: relative;
+			border: 0;
+			padding: 0;
+			cursor: pointer;
+			overflow: visible;
+		}
+		
+		.error_top {
+			background:url('http://www.upc.nl//media/pc/upccore/error/404/bg-radialgrad.png') no-repeat;
+			height: 105px;
+			position: relative;
+		}
+		
+		.error_top h1 {
+			font-family: "interstate_light", Arial, Helvetica, sans-serif;;
+			color: #6eb7e4;
+			font-size: 32px;
+			text-align: center;
+			padding-top: 40px;
+		}
+		
+		.error_top span {
+			position: absolute;
+			background: url('http://www.upc.nl/media/pc/upccore/error/404/bubble.png') no-repeat;
+			width: 104px;
+			height: 35px;
+			top: -15px;
+			right: 10px;
+			padding: 5px;
+			color: white;
+		}
+		
+		.error_middle {
+			background: url('http://www.upc.nl/media/pc/upccore/error/404/lightbulb.jpg') 60px 40px no-repeat;
+			border-left: #E2E2E2 1px solid;
+			border-right: #E2E2E2 1px solid;
+			margin: 0xp;
+			padding-top: 40px;
+			padding-bottom: 40px;
+			padding-left: 280px;
+		}
+		
+		.error_middle h2 {
+			margin: 0px;
+		}
+		
+		.error_middle h2, .error_middle a {
+			color: #6eb7e4;
+		}
+		
+		.error_middle a, .error_middle a:hover {
+			text-decoration: none;
+		}
+		
+		.error_middle ul {
+			padding-bottom: 0px;
+			margin-bottom: 0px;
+		}
+		
+		.error_middle li {
+			line-height: 40px;
+			font-family: arial;
+		}
+		
+		.error_bottom {
+			background: url('http://www.upc.nl/media/pc/upccore/error/404/border_bottom.jpg') no-repeat;
+			width: 990px;
+			height: 5px;
+			display: block;
+		}
+		</style>
+	</head>
+	
+	<body>
+		<div id="maincontainer">
+			<div class="topnavContainer">
+				<div class="logo">
+					<a target="_top" title="UPC Nederland - Televisie, internet en bellen " href="http://www.upc.nl">
+						<img src="http://www.upc.nl/media/pc/upccore/global/core/upc_logo_pl88x66.jpg" width="88" alt="UPC Nederland - Televisie, internet en bellen " height="66" title="UPC Nederland - Televisie, internet en bellen ">
+					</a>
+				</div>
+
+				<div class="portal_search_top">
+					<form action="http://www.upc.nl/upclive/zoeken/2096/20962803.html" method="get" target="_top" class="search_form" id="upclive_search">
+						<input type="text" name="q1" value="Zoeken op het web" onblur="if (this.value==''){ this.value='Zoeken op het web'; this.style.color='#999999';}" onfocus="if (this.value=='Zoeken op het web'){ this.value=''; this.style.color='#000000';}" title="Zoeken" class="search-box" style="color: rgb(153, 153, 153);">
+						<button class="button" type="submit" id="zoek_btn">Zoeken</button>
+						<img src="http://www.upc.nl/media/pc/upccore/global/core/nav/googlelogo2.png" alt="Powered by Google" class="search-logo">
+					</form>
+				</div>
+			</div>
+
+			<div id="upc_page_error_msg">
+				<div class="error_top">
+					<h1>Helaas, wij kunnen de pagina die u zoekt niet vinden.</h1>
+					<span>404 Error</span>
+				</div>
+				<div class="error_middle">
+					<h2>Suggesties:</h2>
+					<ul>
+						<li>Zorg er voor dat het adres in de adresbalk correct gespeld is.</li>
+						<li>Probeer te zoeken naar het onderwerp dat u wilt vinden.</li>
+						<!--li>Vraag om hulp bij het bouwen van uw <a href="http://vragen.upc.nl/app/answers/detail/a_id/286">eigen pagina</a>.</li-->
+						<li>Vind antwoorden op uw vragen in het <a href="http://forum.upclive.nl/">UPC Forum</a>.</li>
+						<li><a href="https://vragen.upc.nl/app/contact/">Neem contact</a> met ons op, we kunnen u op weg helpen.</li>
+					</ul>
+				</div>
+				<div class="error_bottom">
+					<!-- -->
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
